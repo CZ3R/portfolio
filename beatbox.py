@@ -11,7 +11,7 @@ app = Flask(__name__)
 pygame.mixer.init()
 
 # Load your drum sound samples dynamically
-SOUND_DIR = "static/sounds"
+SOUND_DIR = "tunes"
 
 # Function to load sounds
 def load_sounds():
